@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <form action="" id="survey-form">
+        <section id="name-section">
+            <label for="" id="name-label">Name</label>
+            <input type="text" id="name" required placeholder="Enter your name">
+        </section>
+        <section id="email-section">
+            <label for="" id="email-label">Email</label>
+            <input type="email" id="email" required placeholder="Enter your email">
+        </section>
+        <section id="age-section">
+            <label for="" id="number-label">Age(optional)</label>
+            <input type="number" id="number" min="15" max="100" placeholder="age">
+        </section>
+        <section id="dropdown1-section">
+            <label for="" id="name-label">Which option best describes your current role?</label>
+            <select name="" id="dropdown">
+                <option value="1st Option" >1st Option</option>
+                <option value="2nd Option" >2nd Option</option>
+            </select>
+        </section>
+        <section id="radio-section">
+            <div id="radio1">
+                <input type="radio" name="radio" value="option1">
+                <label for="">Option1</label>
+            </div>
+            <div id="radio2">
+                <input type="radio" name="radio" value="option2">
+                <label for="">Option2</label>
+            </div>
+        </section>
+        <section id="dropdown2-section">
+            <label for="" id="name-label">What is your favorite feature of freeCodeCamp?</label>
+            <select name="" id="dropdown">
+                <option value="1st Option" >1st Option</option>
+                <option value="2nd Option" >2nd Option</option>
+            </select>
+        </section>
+        <section id="checkbox-section">
+            <div id="checkbox1">
+                <input type="checkbox" name="radio" value="checkbox1">
+                <label for="">Checkbox1</label>
+            </div>
+            <div id="checkbox2">
+                <input type="checkbox" name="radio" value="checkbox2">
+                <label for="">Checkbox2</label>
+            </div>
+        </section>
+        <section>
+            <label for="">Any comments or suggestions?</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </section>
+        <button id="submit">Submit</button>
+    </form>
+</body>
+</html>
